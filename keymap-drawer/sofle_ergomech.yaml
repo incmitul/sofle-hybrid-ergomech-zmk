@@ -49,7 +49,7 @@ layers:
   - .
   - /
   - RSHFT
-  - MUTE
+  - '&mkp MCLK'
   - LCTRL
   - LALT
   - LGUI
