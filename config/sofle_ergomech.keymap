@@ -57,7 +57,7 @@
 
         mac {
             bindings = <
-&trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans     &trans  &trans    &trans
+&trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans     &trans  &trans    &tog 0
 &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans     &trans  &trans    &trans
 &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans     &trans  &trans    &trans
 &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans     &trans  &trans    &trans
@@ -129,6 +129,17 @@
 &none              &none            &none            &none            &none            &none            &none  &none  &none  &none  &none  &none
 &rgb_ug RGB_TOG    &none            &none            &none            &none            &none            &none  &none  &none  &none  &none
                                                                                                         &kp A  &kp B  &kp C  &kp D  &kp E
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
